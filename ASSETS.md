@@ -100,33 +100,21 @@ Create a 3D tile decoration for a "Plantation" (a plantation improvement on farm
 
 Create a 3D tile decoration for a "Barbarian Camp" (a barbarian encampment of hide tents around a fire) for a hex strategy game. It sits on a flat hex tile of radius 1 (keep within radius 0.85), at most 0.35 units tall, under 2,000 triangles, readable from above. Style: stylized low-poly, clean flat-shaded or simple hand-painted look, readable from a high three-quarter camera at small size, warm natural palette. Original design: no likeness to any existing game, film or brand, no text or logos. Deliver: glTF 2.0 binary (.glb), Y-up, facing +Z, origin at the center of the base on the ground, PBR metallic-roughness materials, textures at most 1024 px. Save as models/barbarian_camp.glb.
 
-### City (Ancient) (3D model) — `assets/models/city_<era>.glb`
+### City: Village (3D model) — `assets/models/city.glb`
 
-Create a 3D model of a small Ancient-era city for a hex strategy game: a cluster of 6–10 buildings typical of that era (houses, a landmark, walls or streets as fitting) on a hex tile of radius 1 (keep within 0.9), at most 0.5 units tall, under 6,000 triangles. Leave roof or flag accents on a material named "team" in neutral white. Style: stylized low-poly, clean flat-shaded or simple hand-painted look, readable from a high three-quarter camera at small size, warm natural palette. Original design: no likeness to any existing game, film or brand, no text or logos. Deliver: glTF 2.0 binary (.glb), Y-up, facing +Z, origin at the center of the base on the ground, PBR metallic-roughness materials, textures at most 1024 px. Save as models/city_ancient.glb.
+Create a 3D model of a village for a hex strategy game (a handful of small houses around a well), shown for cities of population 1 and up. Fit within a hex tile of radius 1 (keep within 0.9), at most 0.9 units tall, under 8,000 triangles. Leave roof or flag accents on a material named "team" in neutral white. Style: stylized low-poly, clean flat-shaded or simple hand-painted look, readable from a high three-quarter camera at small size, warm natural palette. Original design: no likeness to any existing game, film or brand, no text or logos. Deliver: glTF 2.0 binary (.glb), Y-up, facing +Z, origin at the center of the base on the ground, PBR metallic-roughness materials, textures at most 1024 px. Save as models/city.glb.
 
-### City (Classical) (3D model) — `assets/models/city_<era>.glb`
+### City: Town (3D model) — `assets/models/city_town.glb`
 
-Create a 3D model of a small Classical-era city for a hex strategy game: a cluster of 6–10 buildings typical of that era (houses, a landmark, walls or streets as fitting) on a hex tile of radius 1 (keep within 0.9), at most 0.5 units tall, under 6,000 triangles. Leave roof or flag accents on a material named "team" in neutral white. Style: stylized low-poly, clean flat-shaded or simple hand-painted look, readable from a high three-quarter camera at small size, warm natural palette. Original design: no likeness to any existing game, film or brand, no text or logos. Deliver: glTF 2.0 binary (.glb), Y-up, facing +Z, origin at the center of the base on the ground, PBR metallic-roughness materials, textures at most 1024 px. Save as models/city_classical.glb.
+Create a 3D model of a town for a hex strategy game (a dozen houses and a central tower), shown for cities of population 4 and up. Fit within a hex tile of radius 1 (keep within 0.9), at most 0.9 units tall, under 8,000 triangles. Leave roof or flag accents on a material named "team" in neutral white. Style: stylized low-poly, clean flat-shaded or simple hand-painted look, readable from a high three-quarter camera at small size, warm natural palette. Original design: no likeness to any existing game, film or brand, no text or logos. Deliver: glTF 2.0 binary (.glb), Y-up, facing +Z, origin at the center of the base on the ground, PBR metallic-roughness materials, textures at most 1024 px. Save as models/city_town.glb.
 
-### City (Medieval) (3D model) — `assets/models/city_<era>.glb`
+### City: Walled city (3D model) — `assets/models/city_large.glb`
 
-Create a 3D model of a small Medieval-era city for a hex strategy game: a cluster of 6–10 buildings typical of that era (houses, a landmark, walls or streets as fitting) on a hex tile of radius 1 (keep within 0.9), at most 0.5 units tall, under 6,000 triangles. Leave roof or flag accents on a material named "team" in neutral white. Style: stylized low-poly, clean flat-shaded or simple hand-painted look, readable from a high three-quarter camera at small size, warm natural palette. Original design: no likeness to any existing game, film or brand, no text or logos. Deliver: glTF 2.0 binary (.glb), Y-up, facing +Z, origin at the center of the base on the ground, PBR metallic-roughness materials, textures at most 1024 px. Save as models/city_medieval.glb.
+Create a 3D model of a walled city for a hex strategy game (dense houses inside a ring of stone walls with a keep), shown for cities of population 8 and up. Fit within a hex tile of radius 1 (keep within 0.9), at most 0.9 units tall, under 8,000 triangles. Leave roof or flag accents on a material named "team" in neutral white. Style: stylized low-poly, clean flat-shaded or simple hand-painted look, readable from a high three-quarter camera at small size, warm natural palette. Original design: no likeness to any existing game, film or brand, no text or logos. Deliver: glTF 2.0 binary (.glb), Y-up, facing +Z, origin at the center of the base on the ground, PBR metallic-roughness materials, textures at most 1024 px. Save as models/city_large.glb.
 
-### City (Renaissance) (3D model) — `assets/models/city_<era>.glb`
+### City: Metropolis (3D model) — `assets/models/city_metropolis.glb`
 
-Create a 3D model of a small Renaissance-era city for a hex strategy game: a cluster of 6–10 buildings typical of that era (houses, a landmark, walls or streets as fitting) on a hex tile of radius 1 (keep within 0.9), at most 0.5 units tall, under 6,000 triangles. Leave roof or flag accents on a material named "team" in neutral white. Style: stylized low-poly, clean flat-shaded or simple hand-painted look, readable from a high three-quarter camera at small size, warm natural palette. Original design: no likeness to any existing game, film or brand, no text or logos. Deliver: glTF 2.0 binary (.glb), Y-up, facing +Z, origin at the center of the base on the ground, PBR metallic-roughness materials, textures at most 1024 px. Save as models/city_renaissance.glb.
-
-### City (Industrial) (3D model) — `assets/models/city_<era>.glb`
-
-Create a 3D model of a small Industrial-era city for a hex strategy game: a cluster of 6–10 buildings typical of that era (houses, a landmark, walls or streets as fitting) on a hex tile of radius 1 (keep within 0.9), at most 0.5 units tall, under 6,000 triangles. Leave roof or flag accents on a material named "team" in neutral white. Style: stylized low-poly, clean flat-shaded or simple hand-painted look, readable from a high three-quarter camera at small size, warm natural palette. Original design: no likeness to any existing game, film or brand, no text or logos. Deliver: glTF 2.0 binary (.glb), Y-up, facing +Z, origin at the center of the base on the ground, PBR metallic-roughness materials, textures at most 1024 px. Save as models/city_industrial.glb.
-
-### City (Modern) (3D model) — `assets/models/city_<era>.glb`
-
-Create a 3D model of a small Modern-era city for a hex strategy game: a cluster of 6–10 buildings typical of that era (houses, a landmark, walls or streets as fitting) on a hex tile of radius 1 (keep within 0.9), at most 0.5 units tall, under 6,000 triangles. Leave roof or flag accents on a material named "team" in neutral white. Style: stylized low-poly, clean flat-shaded or simple hand-painted look, readable from a high three-quarter camera at small size, warm natural palette. Original design: no likeness to any existing game, film or brand, no text or logos. Deliver: glTF 2.0 binary (.glb), Y-up, facing +Z, origin at the center of the base on the ground, PBR metallic-roughness materials, textures at most 1024 px. Save as models/city_modern.glb.
-
-### City (Atomic & Information) (3D model) — `assets/models/city_<era>.glb`
-
-Create a 3D model of a small Atomic & Information-era city for a hex strategy game: a cluster of 6–10 buildings typical of that era (houses, a landmark, walls or streets as fitting) on a hex tile of radius 1 (keep within 0.9), at most 0.5 units tall, under 6,000 triangles. Leave roof or flag accents on a material named "team" in neutral white. Style: stylized low-poly, clean flat-shaded or simple hand-painted look, readable from a high three-quarter camera at small size, warm natural palette. Original design: no likeness to any existing game, film or brand, no text or logos. Deliver: glTF 2.0 binary (.glb), Y-up, facing +Z, origin at the center of the base on the ground, PBR metallic-roughness materials, textures at most 1024 px. Save as models/city_atomic_information.glb.
+Create a 3D model of a metropolis for a hex strategy game (tall towers and a skyline around a central spire), shown for cities of population 13 and up. Fit within a hex tile of radius 1 (keep within 0.9), at most 0.9 units tall, under 8,000 triangles. Leave roof or flag accents on a material named "team" in neutral white. Style: stylized low-poly, clean flat-shaded or simple hand-painted look, readable from a high three-quarter camera at small size, warm natural palette. Original design: no likeness to any existing game, film or brand, no text or logos. Deliver: glTF 2.0 binary (.glb), Y-up, facing +Z, origin at the center of the base on the ground, PBR metallic-roughness materials, textures at most 1024 px. Save as models/city_metropolis.glb.
 
 ## Wonder models
 
@@ -214,7 +202,7 @@ Create a 3D landmark model of a grand hermitage building, inspired by the real-w
 
 Create a 3D landmark model of a grand ironworks building, inspired by the real-world Ironworks, for a hex strategy game (shown on its city's tile). Fit within a hex tile of radius 1, at most 0.8 units tall, under 8,000 triangles; a faithful but simplified silhouette. Style: stylized low-poly, clean flat-shaded or simple hand-painted look, readable from a high three-quarter camera at small size, warm natural palette. Original design: no likeness to any existing game, film or brand, no text or logos. Deliver: glTF 2.0 binary (.glb), Y-up, facing +Z, origin at the center of the base on the ground, PBR metallic-roughness materials, textures at most 1024 px. Save as models/wonder_ironworks.glb.
 
-## Terrain textures
+## Terrain
 
 ### Ocean (Texture) — `assets/textures/terrain_ocean.png`
 
@@ -243,6 +231,30 @@ Create a seamless, tileable top-down texture for "Plains" terrain in a hex strat
 ### Grassland (Texture) — `assets/textures/terrain_grassland.png`
 
 Create a seamless, tileable top-down texture for "Grassland" terrain in a hex strategy game (1024×1024 PNG, plus an optional normal map). Soft, readable detail that still reads at small size; base color close to RGB (71, 140, 51). No text, no grid lines. Save as textures/terrain_grassland.png.
+
+### Coast scenery (3D model) — `assets/models/terrain_coast.glb`
+
+Create low-poly 3D scenery for "Coast" tiles in a hex strategy game (e.g. trees, rocks, peaks or dunes as fits the terrain), arranged around the edge of a hex of radius 1 and leaving the center (radius 0.35) free for units. At most 0.4 units tall (mountains up to 0.7), under 3,000 triangles. Style: stylized low-poly, clean flat-shaded or simple hand-painted look, readable from a high three-quarter camera at small size, warm natural palette. Original design: no likeness to any existing game, film or brand, no text or logos. Deliver: glTF 2.0 binary (.glb), Y-up, facing +Z, origin at the center of the base on the ground, PBR metallic-roughness materials, textures at most 1024 px. Save as models/terrain_coast.glb.
+
+### Mountain scenery (3D model) — `assets/models/terrain_mountain.glb`
+
+Create low-poly 3D scenery for "Mountain" tiles in a hex strategy game (e.g. trees, rocks, peaks or dunes as fits the terrain), arranged around the edge of a hex of radius 1 and leaving the center (radius 0.35) free for units. At most 0.4 units tall (mountains up to 0.7), under 3,000 triangles. Style: stylized low-poly, clean flat-shaded or simple hand-painted look, readable from a high three-quarter camera at small size, warm natural palette. Original design: no likeness to any existing game, film or brand, no text or logos. Deliver: glTF 2.0 binary (.glb), Y-up, facing +Z, origin at the center of the base on the ground, PBR metallic-roughness materials, textures at most 1024 px. Save as models/terrain_mountain.glb.
+
+### Hills scenery (3D model) — `assets/models/terrain_hills.glb`
+
+Create low-poly 3D scenery for "Hills" tiles in a hex strategy game (e.g. trees, rocks, peaks or dunes as fits the terrain), arranged around the edge of a hex of radius 1 and leaving the center (radius 0.35) free for units. At most 0.4 units tall (mountains up to 0.7), under 3,000 triangles. Style: stylized low-poly, clean flat-shaded or simple hand-painted look, readable from a high three-quarter camera at small size, warm natural palette. Original design: no likeness to any existing game, film or brand, no text or logos. Deliver: glTF 2.0 binary (.glb), Y-up, facing +Z, origin at the center of the base on the ground, PBR metallic-roughness materials, textures at most 1024 px. Save as models/terrain_hills.glb.
+
+### Desert scenery (3D model) — `assets/models/terrain_desert.glb`
+
+Create low-poly 3D scenery for "Desert" tiles in a hex strategy game (e.g. trees, rocks, peaks or dunes as fits the terrain), arranged around the edge of a hex of radius 1 and leaving the center (radius 0.35) free for units. At most 0.4 units tall (mountains up to 0.7), under 3,000 triangles. Style: stylized low-poly, clean flat-shaded or simple hand-painted look, readable from a high three-quarter camera at small size, warm natural palette. Original design: no likeness to any existing game, film or brand, no text or logos. Deliver: glTF 2.0 binary (.glb), Y-up, facing +Z, origin at the center of the base on the ground, PBR metallic-roughness materials, textures at most 1024 px. Save as models/terrain_desert.glb.
+
+### Plains scenery (3D model) — `assets/models/terrain_plains.glb`
+
+Create low-poly 3D scenery for "Plains" tiles in a hex strategy game (e.g. trees, rocks, peaks or dunes as fits the terrain), arranged around the edge of a hex of radius 1 and leaving the center (radius 0.35) free for units. At most 0.4 units tall (mountains up to 0.7), under 3,000 triangles. Style: stylized low-poly, clean flat-shaded or simple hand-painted look, readable from a high three-quarter camera at small size, warm natural palette. Original design: no likeness to any existing game, film or brand, no text or logos. Deliver: glTF 2.0 binary (.glb), Y-up, facing +Z, origin at the center of the base on the ground, PBR metallic-roughness materials, textures at most 1024 px. Save as models/terrain_plains.glb.
+
+### Grassland scenery (3D model) — `assets/models/terrain_grassland.glb`
+
+Create low-poly 3D scenery for "Grassland" tiles in a hex strategy game (e.g. trees, rocks, peaks or dunes as fits the terrain), arranged around the edge of a hex of radius 1 and leaving the center (radius 0.35) free for units. At most 0.4 units tall (mountains up to 0.7), under 3,000 triangles. Style: stylized low-poly, clean flat-shaded or simple hand-painted look, readable from a high three-quarter camera at small size, warm natural palette. Original design: no likeness to any existing game, film or brand, no text or logos. Deliver: glTF 2.0 binary (.glb), Y-up, facing +Z, origin at the center of the base on the ground, PBR metallic-roughness materials, textures at most 1024 px. Save as models/terrain_grassland.glb.
 
 ## Resource markers and icons
 
