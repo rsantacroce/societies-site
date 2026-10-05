@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Societies — a turn-based strategy game</title>
+<meta name="description" content="Societies: an original turn-based hex strategy game of civilizations, written in Rust with Bevy.">
+<meta property="og:title" content="Societies — a turn-based strategy game">
+<meta property="og:description" content="Societies: an original turn-based hex strategy game of civilizations, written in Rust with Bevy.">
+<meta property="og:image" content="images/ingame.jpg">
+<link rel="icon" href="data:image/svg+xml,&lt;svg viewBox=&#x27;0 0 32 32&#x27; aria-hidden=&#x27;true&#x27;&gt;&lt;path d=&#x27;M16 2 28 9v14l-12 7L4 23V9z&#x27; fill=&#x27;none&#x27; stroke=&#x27;%23d9ab52&#x27; stroke-width=&#x27;2&#x27;/&gt;&lt;path d=&#x27;M16 9l6 3.5v7L16 23l-6-3.5v-7z&#x27; fill=&#x27;%23d9ab52&#x27;/&gt;&lt;/svg&gt;">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="bar"><nav><a class="brand" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2 28 9v14l-12 7L4 23V9z" fill="none" stroke="#d9ab52" stroke-width="2"/><path d="M16 9l6 3.5v7L16 23l-6-3.5v-7z" fill="#d9ab52"/></svg>SOCIETIES</a><a class="link here" href="index.html">Home</a><a class="link" href="manual.html">Manual</a><a class="link" href="assets.html">Assets wanted</a></nav></header>
+
+<header class="hero" style="--hero: url('images/ingame.jpg')">
+  <div class="wrap">
+    <p class="eyebrow">A turn-based strategy game</p>
+    <h1>SOCIETIES</h1>
+    <p>Lead a people from a single settler to the stars. Explore, found cities, research, trade, pray, negotiate and
+    fight across the ages of a hex-grid world, and win by conquest, science, culture, diplomacy or score.</p>
+    <div class="cta">
+      <a class="btn primary" href="#play">Play it</a>
+      <a class="btn ghost" href="manual.html">Read the manual</a>
+      <a class="btn ghost" href="assets.html">Art &amp; audio wanted</a>
+    </div>
+    <div class="stats"><div>7<span>eras</span></div><div>52<span>technologies</span></div><div>12<span>units</span></div><div>21<span>wonders</span></div><div>5<span>victories</span></div><div>5<span>map types</span></div></div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <p class="eyebrow">The world</p>
+    <h2>Every turn, a thousand small decisions</h2>
+    <p class="lead">Where to settle, what to build, which tech to chase, when to make peace. Societies is a complete
+    4X: the systems you expect from the genre, built from scratch.</p>
+    <div class="gallery">
+      <figure><img src="images/ingame.jpg" alt="Turn 228: rival empires, city-states and armies across a continent" loading="lazy"><figcaption>Turn 228: rival empires, city-states and armies across a continent</figcaption></figure><figure><img src="images/units.jpg" alt="Every unit and great person has its own model" loading="lazy"><figcaption>Every unit and great person has its own model</figcaption></figure><figure><img src="images/setup.jpg" alt="Set up a game your way" loading="lazy"><figcaption>Set up a game your way</figcaption></figure><figure><img src="images/victory.jpg" alt="Five roads to victory" loading="lazy"><figcaption>Five roads to victory</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top: 0">
+  <div class="wrap">
+    <p class="eyebrow">Features</p>
+    <h2>What's in the game</h2>
+    <div class="features">
+      <div class="feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2 21 7v10l-9 5-9-5V7z"/><path d="M12 7v10M7.5 9.5l9 5M16.5 9.5l-9 5"/></svg><h3>A living hex world</h3><p>Five map types, 7 terrains, 13 resources, and a fog of war that remembers what you last saw.</p></div><div class="feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18M5 21V11l4-3 4 3v10M13 21V7l3-3 3 3v14M8 14h2M8 17h2M15 10h2M15 13h2M15 16h2"/></svg><h3>Cities that grow</h3><p>Work the land, push borders out with culture, and raise 14 buildings, 21 wonders and 5 projects.</p></div><div class="feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6M10 3v6L4.5 18.5A2 2 0 0 0 6.2 21h11.6a2 2 0 0 0 1.7-2.5L14 9V3M7.5 14h9"/></svg><h3>Seven eras of discovery</h3><p>52 technologies from Agriculture to Fusion, researched toward any goal you set.</p></div><div class="feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 4 20 4v5.5L9 20.5 4 21l.5-5zM7 14l3 3M5 19l2-2"/></svg><h3>Tactical combat</h3><p>12 unit types. Melee and ranged attacks, flanking, zones of control, embarking, sieges and captures.</p></div><div class="feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18M4 8h16M12 3 3 8h18zM6 8v10M10 8v10M14 8v10M18 8v10M4 18h16"/></svg><h3>Policies and contentment</h3><p>9 policy branches, golden ages, luxuries, and an empire that grumbles if it grows too fast.</p></div><div class="feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l2.7 5.8 6.3.7-4.7 4.3 1.3 6.2L12 17l-5.6 3 1.3-6.2L3 9.5l6.3-.7z"/></svg><h3>Great people and trade</h3><p>Scientists, engineers, merchants, artists, generals and prophets. Caravans that bind cities together.</p></div><div class="feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/></svg><h3>Faith</h3><p>Pantheons, religions founded with your own beliefs, missionaries, and pressure that carries belief from city to city.</p></div><div class="feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 21V4M5 4h11l-2 4 2 4H5"/></svg><h3>A crowded world</h3><p>City-states to court with gold and quests, barbarians raiding from the wilds, and deals struck between rivals.</p></div><div class="feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H8a3 3 0 0 1-3-3V6a2 2 0 0 0-2-2M9 9h7M9 13h7"/></svg><h3>The World Congress</h3><p>Vote resolutions into force with your delegates, and late in the game elect a World Leader.</p></div><div class="feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M15 14.5c3 0 6 2 6 5.5"/></svg><h3>Play your way</h3><p>Against the AI at four difficulty levels, hotseat on one screen, or online with friends.</p></div><div class="feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 0 1 14-5.3L20 9M20 4v5h-5M20 12a8 8 0 0 1-14 5.3L4 15M4 20v-5h5"/></svg><h3>Perfect replays</h3><p>Every game is a seed plus a list of orders: saves round-trip exactly, and any game can be replayed and verified.</p></div><div class="feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h8l4 4v14H6zM14 3v4h4M9 12h6M9 16h6"/></svg><h3>Made to be modded</h3><p>Units, techs, wonders, policies, religions and rules live in plain text files. Edit, restart, play.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <p class="eyebrow">Victory</p>
+    <h2>Five roads to the end of history</h2>
+    <p class="lead">Every game is a race. Pick your road, or switch when a rival pulls ahead.</p>
+    <div class="victories">
+      <div class="victory"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/></svg><h3>Conquest</h3><p>Be the last civilization standing.</p></div><div class="victory"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c3 2 5 6 4 11l-4 3-4-3c-1-5 1-9 4-11zM12 10v.01M8 14l-3 3 4 1M16 14l3 3-4 1"/></svg><h3>Science</h3><p>Launch the first spaceship and see it arrive.</p></div><div class="victory"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18M4 8h16M12 3 3 8h18zM6 8v10M10 8v10M14 8v10M18 8v10M4 18h16"/></svg><h3>Culture</h3><p>Complete 5 social policy branches.</p></div><div class="victory"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 15c4 0 6-2 8-6 1.5 3 4 4 7 4l3-3-1 5c-1 3-4 5-8 5H5zM14 8a2 2 0 1 1 3 0"/></svg><h3>Diplomacy</h3><p>Be elected World Leader with 67% of the delegates.</p></div><div class="victory"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12M6 21h12M7 3c0 5 10 5 10 9s-10 4-10 9M17 3c0 5-10 5-10 9s10 4 10 9"/></svg><h3>Time</h3><p>Hold the highest score at turn 300.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="eyebrow">Content</p>
+    <h2>From warriors to the Hubble</h2>
+    <h3>Units</h3>
+    <div class="chips"><span class="chip">Settler</span><span class="chip">Warrior</span><span class="chip">Scout</span><span class="chip">Worker</span><span class="chip">Archer</span><span class="chip">Spearman</span><span class="chip">Horseman</span><span class="chip">Swordsman</span><span class="chip">Catapult</span><span class="chip">Knight</span><span class="chip">Galley</span><span class="chip">Caravan</span></div>
+    <h3>World wonders</h3>
+    <div class="chips"><span class="chip">Pyramids</span><span class="chip">Great Library</span><span class="chip">Hanging Gardens</span><span class="chip">Colossus</span><span class="chip">Great Lighthouse</span><span class="chip">Parthenon</span><span class="chip">Notre-Dame</span><span class="chip">Machu Picchu</span><span class="chip">Sistine Chapel</span><span class="chip">Taj Mahal</span><span class="chip">Big Ben</span><span class="chip">Louvre</span><span class="chip">Statue of Liberty</span><span class="chip">Eiffel Tower</span><span class="chip">Sydney Opera House</span><span class="chip">Hubble Telescope</span></div>
+    <h3>Policy branches</h3>
+    <div class="chips"><span class="chip">Tradition</span><span class="chip">Liberty</span><span class="chip">Honor</span><span class="chip">Piety</span><span class="chip">Commerce</span><span class="chip">Rationalism</span><span class="chip">Freedom</span><span class="chip">Order</span><span class="chip">Autocracy</span></div>
+  </div>
+</section>
+
+<section id="play" class="band">
+  <div class="wrap split">
+    <div>
+      <p class="eyebrow">Play</p>
+      <h2>Build it, run it</h2>
+      <p class="lead">Societies builds from source with stable Rust and runs on macOS, Windows and Linux. With no
+      arguments it opens the main menu; flags start a game directly.</p>
+      <a class="btn ghost" href="manual.html#start">Getting started →</a>
+    </div>
+<pre><code>cargo run --release                <span class="c"># main menu</span>
+cargo run --release -- --seed 42   <span class="c"># straight into a game</span>
+cargo run --release -- --map-type archipelago
+cargo run --release -- --host 7777 --players 3 --ai 1
+cargo run --release -- --join HOST:7777 --name Ada</code></pre>
+  </div>
+</section>
+
+<section>
+  <div class="wrap split">
+    <div>
+      <p class="eyebrow">Under the hood</p>
+      <h2>Deterministic to the core</h2>
+      <p class="lead">A pure simulation crate with no engine inside, and a Bevy 3D client on top. The same validated
+      orders come from the mouse, the AI and the network.</p>
+    </div>
+    <div class="tech">
+      <div><strong>Rust + Bevy</strong><span>3D client, bevy_ui and egui screens</span></div>
+      <div><strong>Command core</strong><span>one function applies every order</span></div>
+      <div><strong>Fog-safe</strong><span>players, AIs and clients see only their own view</span></div>
+      <div><strong>Data-driven</strong><span>all content in plain .ron files</span></div>
+    </div>
+  </div>
+</section>
+
+<footer><div class="wrap">Societies is an original hex-grid strategy game written in Rust with Bevy. All art and audio
+in the game today is generated by scripts in its repository (CC0). This site is generated from the game's own content
+files by <code>tools/gen_site.py</code>.</div></footer>
+<script src="site.js"></script>
+</body>
+</html>
