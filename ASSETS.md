@@ -356,29 +356,29 @@ Create a small 3D map marker for the "Coal" resource (strategic) in a hex strate
 
 ## UI icons
 
-### Yield: food (Icon) — `assets/icons/yield_food.png`
+### Yield: food (Icon) — `assets/icons/food.png`
 
-Create a game UI icon for the "food" yield in a strategy game. Flat vector-style icon, 256×256 PNG with transparent background, bold silhouette with a subtle two-tone shading, readable at 32 px, consistent line weight across the set, original design, no text. Save as icons/yield_food.png.
+Create a game UI icon for the "food" yield in a strategy game. Flat vector-style icon, 256×256 PNG with transparent background, bold silhouette with a subtle two-tone shading, readable at 32 px, consistent line weight across the set, original design, no text. Save as icons/food.png.
 
-### Yield: production (Icon) — `assets/icons/yield_production.png`
+### Yield: production (Icon) — `assets/icons/production.png`
 
-Create a game UI icon for the "production" yield in a strategy game. Flat vector-style icon, 256×256 PNG with transparent background, bold silhouette with a subtle two-tone shading, readable at 32 px, consistent line weight across the set, original design, no text. Save as icons/yield_production.png.
+Create a game UI icon for the "production" yield in a strategy game. Flat vector-style icon, 256×256 PNG with transparent background, bold silhouette with a subtle two-tone shading, readable at 32 px, consistent line weight across the set, original design, no text. Save as icons/production.png.
 
-### Yield: gold (Icon) — `assets/icons/yield_gold.png`
+### Yield: gold (Icon) — `assets/icons/gold.png`
 
-Create a game UI icon for the "gold" yield in a strategy game. Flat vector-style icon, 256×256 PNG with transparent background, bold silhouette with a subtle two-tone shading, readable at 32 px, consistent line weight across the set, original design, no text. Save as icons/yield_gold.png.
+Create a game UI icon for the "gold" yield in a strategy game. Flat vector-style icon, 256×256 PNG with transparent background, bold silhouette with a subtle two-tone shading, readable at 32 px, consistent line weight across the set, original design, no text. Save as icons/gold.png.
 
-### Yield: science (Icon) — `assets/icons/yield_science.png`
+### Yield: science (Icon) — `assets/icons/science.png`
 
-Create a game UI icon for the "science" yield in a strategy game. Flat vector-style icon, 256×256 PNG with transparent background, bold silhouette with a subtle two-tone shading, readable at 32 px, consistent line weight across the set, original design, no text. Save as icons/yield_science.png.
+Create a game UI icon for the "science" yield in a strategy game. Flat vector-style icon, 256×256 PNG with transparent background, bold silhouette with a subtle two-tone shading, readable at 32 px, consistent line weight across the set, original design, no text. Save as icons/science.png.
 
-### Yield: culture (Icon) — `assets/icons/yield_culture.png`
+### Yield: culture (Icon) — `assets/icons/culture.png`
 
-Create a game UI icon for the "culture" yield in a strategy game. Flat vector-style icon, 256×256 PNG with transparent background, bold silhouette with a subtle two-tone shading, readable at 32 px, consistent line weight across the set, original design, no text. Save as icons/yield_culture.png.
+Create a game UI icon for the "culture" yield in a strategy game. Flat vector-style icon, 256×256 PNG with transparent background, bold silhouette with a subtle two-tone shading, readable at 32 px, consistent line weight across the set, original design, no text. Save as icons/culture.png.
 
-### Yield: faith (Icon) — `assets/icons/yield_faith.png`
+### Yield: faith (Icon) — `assets/icons/faith.png`
 
-Create a game UI icon for the "faith" yield in a strategy game. Flat vector-style icon, 256×256 PNG with transparent background, bold silhouette with a subtle two-tone shading, readable at 32 px, consistent line weight across the set, original design, no text. Save as icons/yield_faith.png.
+Create a game UI icon for the "faith" yield in a strategy game. Flat vector-style icon, 256×256 PNG with transparent background, bold silhouette with a subtle two-tone shading, readable at 32 px, consistent line weight across the set, original design, no text. Save as icons/faith.png.
 
 ### Building: Monument (Icon) — `assets/icons/building_monument.png`
 
