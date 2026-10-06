@@ -768,6 +768,10 @@ Compose a triumphant 30-second victory fanfare for a strategy game, ending on a 
 
 Compose a somber 30-second defeat theme for a strategy game. Original, no vocals, 48 kHz stereo OGG.
 
+### Map ambience (Music) — `assets/audio/ambience.ogg`
+
+Record or synthesize a quiet 40-60 second seamless loop of wind in grass with occasional distant birds, to play under a strategy game's map. No melody. 48 kHz stereo OGG, seamless loop.
+
 ## Sound effects
 
 ### UI click (Sound effect) — `assets/audio/click.ogg`
@@ -841,6 +845,10 @@ Create a sound effect for a strategy game: "Peace signed" — a calm harp gestur
 ### Congress session (Sound effect) — `assets/audio/congress.ogg`
 
 Create a sound effect for a strategy game: "Congress session" — a gavel and murmuring crowd. Length 0.2–2 s, clean start and tail, no music bed unless stated, 48 kHz, OGG Vorbis, normalized to -14 LUFS. Original recording or synthesis.
+
+### Policy adopted (Sound effect) — `assets/audio/policy.ogg`
+
+Create a sound effect for a strategy game: "Policy adopted" — a soft two-note bell. Length 0.2–2 s, clean start and tail, no music bed unless stated, 48 kHz, OGG Vorbis, normalized to -14 LUFS. Original recording or synthesis.
 
 ### Order refused (Sound effect) — `assets/audio/error.ogg`
 
