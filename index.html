@@ -22,7 +22,7 @@
     <p>Lead a people from a single settler to the stars. Explore, found cities, research, trade, pray, negotiate and
     fight across the ages of a hex-grid world, and win by conquest, science, culture, diplomacy or score.</p>
     <div class="cta">
-      <a class="btn primary" href="#play">Play it</a>
+      <a class="btn primary" href="#play">Download</a>
       <a class="btn ghost" href="manual.html">Read the manual</a>
       <a class="btn ghost" href="assets.html">Art &amp; audio wanted</a>
     </div>
@@ -77,19 +77,38 @@
 </section>
 
 <section id="play" class="band">
-  <div class="wrap split">
-    <div>
-      <p class="eyebrow">Play</p>
-      <h2>Build it, run it</h2>
-      <p class="lead">Societies builds from source with stable Rust and runs on macOS, Windows and Linux. With no
-      arguments it opens the main menu; flags start a game directly.</p>
-      <a class="btn ghost" href="manual.html#start">Getting started →</a>
+  <div class="wrap">
+    <p class="eyebrow">Play</p>
+    <h2>Download</h2>
+    <p class="lead">Free, for macOS (Apple silicon), Windows and Linux. On macOS, unpack and drag
+    <strong>Societies.app</strong> into Applications. On Windows and Linux, unpack anywhere and run
+    <code>societies</code>; the <code>assets</code> folder must stay next to it.</p>
+    <div class="cta" style="margin:22px 0">
+      <a class="btn primary" href="https://github.com/rsantacroce/societies-site/releases/latest/download/societies-macos-arm64.tar.gz">macOS</a>
+      <a class="btn primary" href="https://github.com/rsantacroce/societies-site/releases/latest/download/societies-windows-x86_64.zip">Windows</a>
+      <a class="btn primary" href="https://github.com/rsantacroce/societies-site/releases/latest/download/societies-linux-x86_64.tar.gz">Linux</a>
+      <a class="btn ghost" href="https://github.com/rsantacroce/societies-site/releases">All releases</a>
     </div>
-<pre><code>cargo run --release                <span class="c"># main menu</span>
-cargo run --release -- --seed 42   <span class="c"># straight into a game</span>
-cargo run --release -- --map-type archipelago
-cargo run --release -- --host 7777 --players 3 --ai 1
-cargo run --release -- --join HOST:7777 --name Ada</code></pre>
+    <div class="split">
+      <div>
+        <h3>First launch</h3>
+        <p><strong>macOS:</strong> the app isn't notarized by Apple yet, so macOS blocks it the first time. Run the
+        command opposite once in Terminal (or try to open it, then allow it under System Settings &rarr; Privacy
+        &amp; Security &rarr; Open Anyway).</p>
+        <p><strong>Windows:</strong> SmartScreen may warn about an unknown publisher: choose <em>More info</em>,
+        then <em>Run anyway</em>.</p>
+        <p><strong>Linux:</strong> needs ALSA and udev (present on most desktops).</p>
+        <a class="btn ghost" href="manual.html#start">Getting started &rarr;</a>
+      </div>
+<pre><code><span class="c"># macOS: allow the unsigned build</span>
+xattr -dr com.apple.quarantine /Applications/Societies.app
+
+<span class="c"># options, from Terminal (no arguments: main menu)</span>
+./societies --tutorial
+./societies --seed 42 --map-type archipelago
+./societies --host 7777 --players 3 --ai 1
+./societies --join HOST:7777 --name Ada</code></pre>
+    </div>
   </div>
 </section>
 
