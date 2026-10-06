@@ -168,8 +168,10 @@ player is ready, and each player's camera is remembered.</p>
 others are open on port 7777), and friends pick <em>Join online game</em> on the main menu and enter your address.
 From the command line: <code>--host PORT</code> and <code>--join HOST:PORT</code>.
 The host runs the game and sends each player only what they may see, so nobody can peek through the fog.</p><h2 id="saves">Saves and replays</h2>
-<p>The game autosaves at the start of every round (<code>saves/autosave.ron</code>); <em>Continue</em> on the main
-menu picks it up. <kbd>F5</kbd> quick-saves and <kbd>F9</kbd> loads (<code>saves/quicksave.ron</code>). Every save is read back and
+<p>Saves and settings live in a <code>saves</code> folder in your user data folder: <code>~/Library/Application
+Support/Societies</code> on macOS, <code>%APPDATA%\Societies</code> on Windows, <code>~/.local/share/societies</code>
+on Linux (the side panel shows the exact path). The game autosaves at the start of every round (<code>autosave.ron</code>); <em>Continue</em> on the main
+menu picks it up. <kbd>F5</kbd> quick-saves and <kbd>F9</kbd> loads (<code>quicksave.ron</code>). Every save is read back and
 checked. Because the game is deterministic, a replay (the starting state plus every command) reproduces a whole game
 exactly; <code>--verify-replay FILE</code> checks one.</p><h2 id="modding">Modding</h2>
 <p>All content lives in <code>assets/content/*.ron</code>: terrain, units, improvements, buildings, techs, wonders,
