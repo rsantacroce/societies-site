@@ -170,7 +170,15 @@ player is ready, and each player's camera is remembered.</p>
 <p><strong>Online:</strong> on the new-game screen choose <em>Host online</em> (you take the first human seat; the
 others are open on port 7777), and friends pick <em>Join online game</em> on the main menu and enter your address.
 From the command line: <code>--host PORT</code> and <code>--join HOST:PORT</code>.
-The host runs the game and sends each player only what they may see, so nobody can peek through the fog.</p><h2 id="saves">Saves and replays</h2>
+The host runs the game and sends each player only what they may see, so nobody can peek through the fog.</p>
+<p><strong>Behind a home router?</strong> Without port forwarding, players can't reach your machine. Host through a
+<em>relay server</em> instead: set <em>Relay server</em> on the new-game screen (or use <code>--relay HOST:PORT</code>),
+then <em>Host online</em>. The Online panel shows an address with a room code, like
+<code>relay.example.com:7700/K7QX2M</code>; players enter it in <em>Join online game</em>. The relay only passes the
+traffic along. Anyone can run one (<code>societies-relay</code>, included in the Linux downloads).</p>
+<p><strong>Dropping out:</strong> if your connection breaks, the game reconnects by itself and you get your seat
+back; meanwhile the seat is kept for you (only your game holds its secret rejoin key). If you closed the game,
+<em>Join online game</em> offers <em>Rejoin</em> for the last online game you played.</p><h2 id="saves">Saves and replays</h2>
 <p>Saves and settings live in a <code>saves</code> folder in your user data folder: <code>~/Library/Application
 Support/Societies</code> on macOS, <code>%APPDATA%\Societies</code> on Windows, <code>~/.local/share/societies</code>
 on Linux (the side panel shows the exact path). The game autosaves at the start of every round (<code>autosave.ron</code>); <em>Continue</em> on the main
