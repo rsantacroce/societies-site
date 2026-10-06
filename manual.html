@@ -155,7 +155,9 @@ later.</li>
 </ul><h2 id="multiplayer">Hotseat and online play</h2>
 <p><strong>Hotseat:</strong> several humans share one screen; between turns a curtain hides the map until the next
 player is ready, and each player's camera is remembered.</p>
-<p><strong>Online:</strong> one player hosts (<code>--host PORT</code>) and others join (<code>--join HOST:PORT</code>).
+<p><strong>Online:</strong> on the new-game screen choose <em>Host online</em> (you take the first human seat; the
+others are open on port 7777), and friends pick <em>Join online game</em> on the main menu and enter your address.
+From the command line: <code>--host PORT</code> and <code>--join HOST:PORT</code>.
 The host runs the game and sends each player only what they may see, so nobody can peek through the fog.</p><h2 id="saves">Saves and replays</h2>
 <p>The game autosaves at the start of every round (<code>saves/autosave.ron</code>); <em>Continue</em> on the main
 menu picks it up. <kbd>F5</kbd> quick-saves and <kbd>F9</kbd> loads (<code>saves/quicksave.ron</code>). Every save is read back and
